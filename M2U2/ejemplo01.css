@@ -1,0 +1,34 @@
+/* font-family: 'Handlee', cursive; */
+.caja {
+    background: rgb(31, 176, 106);
+    background: linear-gradient(90deg,
+            rgba(31, 176, 106, 1) 24%,
+            rgba(219, 82, 82, 1) 51%,
+            rgba(0, 189, 255, 1) 90%);
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    box-shadow: 10px 10px 5px black; /*sombras de la caja*/
+            /*  ejex ejey blur color*/
+    /*dato importante: el box shadow se mueve a la par de coordenadas o eje carteciano
+     osea que colocandole el negativo por delante a los ejes se cambia de lugar las sombras*/
+    border-radius: 20px;
+    /* bordes redondeados de caja y sombra*/
+    /* se puede redondear de manera distinta cada uno de los bordes */
+}
+
+.texto {
+    background-color: yellow;
+    column-count: 4;
+    column-gap: 50px;
+    column-rule: 2px solid black;
+}
+
+h1 {
+    color: red;
+    /*a los h1 no se le pone punto adelante sino no funciona*/
+    font-family: 'Handlee', cursive;
+}
+.grande{font-size: 70px;}
+/*se le creo una clase de nombre "grande" que se agrego al html del icono
+luego se lo llevo a css y usamos el font size para agrandar el icono*/
